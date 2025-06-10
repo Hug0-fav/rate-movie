@@ -10,7 +10,7 @@ const StarContainerStyle = {
   display: "flex",
 };
 
-export default function StarRatimg({
+export default function StarRating({
   maxRating = 5,
   color = "#fcc419",
   size = 48,
@@ -19,9 +19,9 @@ export default function StarRatimg({
   const [rating, setRating] = useState(0);
   const [tempRating, setTempRating] = useState(0);
 
-  function handleRating(rating) {
-    onSetTestRating(rating);
-  }
+  // function handleRating(rating) {
+  //   onSetTestRating(rating);
+  // }
 
   const textStyle = {
     lineHeight: "1",
